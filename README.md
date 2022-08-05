@@ -35,7 +35,7 @@ Bug Report
 In order to start the test you need to build module and then you will have 3 ways how to start the app and test
 
 1. By the button on the top of the IDE
-2. By the package (click right button on the package and start the test)
+2. By the class AndroidTestForAppMobileAssignment (click right button on the class and start the test)
 3. By command './gradlew connectedCheck'
 
 ## Additional information

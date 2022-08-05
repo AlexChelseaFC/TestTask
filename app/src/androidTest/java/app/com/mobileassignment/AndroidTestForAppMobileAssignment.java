@@ -25,7 +25,7 @@ import app.com.mobileassignment.views.MainActivity;
 
 
 @RunWith(AndroidJUnit4.class)
-public class AndriodTestForAppMobileassignment {
+public class AndroidTestForAppMobileAssignment {
 
     @Rule
     public ActivityTestRule<MainActivity> mActivityRule =
