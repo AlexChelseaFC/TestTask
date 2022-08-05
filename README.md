@@ -15,6 +15,7 @@ Emulator(Pixel 4 API 30)
 ##Reports
 Test cases
 Bug Report
+Conclusion about the app and release on production
 
 ##ProjectStructure
 
@@ -28,7 +29,7 @@ Bug Report
 
  --gradle
 
- --reports (directory contains test cases and bug reports)
+ --reports (directory contains test cases, bug report, conclusion about up conditions for release)
 
 ## Run test
 
