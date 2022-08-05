@@ -1,29 +1,43 @@
-# Backbase Mobile QA Assignment
+# Test Task
 
 ## Description
-This assessment is to measure the candidate's knowledge with Git, test cases creation, test reporting and the ability to adapt with automation tools.
+This app contains a simple mobile application which allows you to find the city on map via searchbar
+You need just put the name of the city in the searchbar and see the result
 
-## Application under test
-A simple native Android application that shows a list of cities which you can search and when you choose a city the app shows a pin on a map. Then you can go back and repeat the process.
+## Tools:
+Java 11
+JUnit 4
+Espresso
+Android Studio
+Gradle
+Emulator(Pixel 4 API 30)
 
-Prerequisites
-- Github account
-- Android Studio
+##Reports
+Test cases
+Bug Report
 
-## Deliverables:
-1. Create a series of testcases based on the application functionality. Make sure that you give detailed instructions for each test case (step preconditions, steps to execute test case, expected results, etc). You can use any format you prefer.
-2. Automate at least 5 (the more, the better!) of the previously created test cases. Use of Espresso as an automation tool is highly preferred. As an alternative you can use UI Automator. No other tool is accepted.
-3. Provide a clear set of instructions how to run tests.
-4. Provide a test report for executed test cases (manual and automated)
-5. In the case of finding bugs, provide a separate bug report
-6. Provide an overall evaluation test report for the application (issues, risks, recommendation, etc.). Make it personal! Explain why you decided to automate what you’ve automated, why you decided to test what you’ve tested, what test strategies you decided to use and why... Summarising, guide us through your mind!
+##ProjectStructure
 
-All manual deliverables should be added to a "Reports" folder in root of project.
+--- BB-Mobile-QA-assignment-main
 
-Once you are done,  push your test assignment to your fork. Please provide user **bb-qa** access to your fork and share a link to your fork when you are done with the assignment.
+  --src
+  
+    --androidTest (package contains java and android tests)
+    --main (package contains description of main classes)
+    --test (package will contain UnitTest)
 
-**Bonus Question:**
-Part of the app functionality is currently not working. Fix it if you can.
+ --gradle
 
-**NOTE:**
-If you need to take any assumptions please note them as part of your answers.
+ --reports (directory contains test cases and bug reports)
+
+## Run test
+
+In order to start the test you need to build module and then you will have 3 ways how to start the app and test
+
+1. By the button on the top of the IDE
+2. By the package (click right button on the package and start the test)
+3. By command './gradlew connectedCheck'
+
+## Additional information
+
+If you have any questions please contact me via email khalmataualex@gmail.com
