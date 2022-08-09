@@ -29,7 +29,7 @@ Conclusion about the app and release on production
 
  --gradle
 
- --reports (directory contains test cases, bug report, conclusion about up conditions for release)
+ --reports (directory contains test cases, bug report, conclusion about app conditions for release)
 
 ## Run test
 
