@@ -10,7 +10,7 @@ JUnit 4
 Espresso
 Android Studio
 Gradle
-Emulator(Pixel 4 API 30)
+Emulator(Nexus API 30)
 
 ##Reports
 Test cases
